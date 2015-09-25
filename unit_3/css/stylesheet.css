@@ -1,0 +1,111 @@
+/*TYPOGRAPHY*/
+
+h1 {
+	font-size: 36px;
+	font-family: Verdana, Helvetica, Arial, Sans-Serif;
+	font-weight: bold;
+	color: #a50a2d;
+}
+h2, h3, p {
+	font-family: Verdana, Helvetica, Arial, Sans-Serif;
+}
+h2 {
+	color: #a50a2d;
+}
+/*.links {
+	font-size: 1.2em;
+	color: #555;
+	text-decoration: none;
+}
+.links:hover {
+	font: 20px;
+	color: #ff0000;
+	text-decoration: underline;
+	font-weight: bold;
+}*/
+}
+body {
+	margin: 0;
+	padding: 0;
+	background: #fefefe;
+}
+#hero {
+	display: block;
+	margin: auto;
+}
+.nav ul {
+	text-align: center;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	background-color: #fff;
+	overflow: auto;
+	box-shadow: 0px 1px 10px #5e5e5e;
+}
+.nav li {
+	font-family: Verdana, Sans-Serif;
+	font-size: 2em;
+	text-decoration: none;
+	display: inline;
+	line-height: 40px;
+	height: 40px;
+}
+.nav a {
+	text-decoration: none;
+	color: #555;
+	display: inline;
+}
+.nav a:hover {
+	color: #a50a2d;
+}
+.nav a:active {
+	color: #fff;
+	background-color: #a50a2d; 
+}
+.copyright {
+	font-size: 8px;
+	color: #444;
+	text-align: center;
+}
+.littlenav ul {
+	text-align: right;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	background-color: #fff;
+	overflow: auto;
+}
+.littlenav li {
+	font-family: Verdana, Sans-Serif;
+	font-size: 10px;
+	text-decoration: none;
+	display: inline;
+	line-height: 15px;
+	height: 15px;
+}
+.littlenav a {
+	text-decoration: none;
+	color: #555;
+	display: inline;
+}
+.littlenav a:hover {
+	color: #a50a2d;
+}
+.littlenav a:active {
+	color: #fff;
+	background-color: #a50a2d;
+hr {
+	width: 100%;
+	color: #ff0000;
+	height: 1px;
+}
+.copyright {
+	font-size: 10px;
+	color: #444;
+}
+/*.links:active {
+
+}*/
+
+/*NAVIGATION*/
+
