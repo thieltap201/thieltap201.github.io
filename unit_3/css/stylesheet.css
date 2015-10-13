@@ -1,26 +1,34 @@
 * {
 	margin: 0;
 	padding: 0;
-	box-sizing:border-box;
+	box-sizing: border-box;
 }
 /*TYPOGRAPHY*/
 body {
-	background: #fefefe;
-	font-family: Verdana, Helvetica, Arial, Sans-Serif;
+	background: #eee;
+	/*font-family: 'Open Sans', sans-serif;*/
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	/*font-family: Verdana, Helvetica, Arial, Sans-Serif;*/
 }
 section#splash {
-	background:url(../images/Blue_Orange_Front1-1600x600.jpg);
-	background-size:cover;
+	background:url(../photos/Blue_Orange_Front1-1600x600.jpg);
+	background-size: cover;
 	background-repeat:no-repeat;
 	height:50vh;
 }
 h1 {
-	font-size: 36px;
+	/*font-family: 'Audiowide';*/
+	font-family: 'Fascinate', cursive;
+	font-size: 2em;
 	font-weight: bold;
-	color: #a50a2d;
+	color: #4A070B;
 }
 h2 {
-	color: #a50a2d;
+	font-weight: bold;
+	font-size: 1.5em;
+	color: #BD1B28;
 }
 /*.links {
 	font-size: 1.2em;
@@ -34,6 +42,8 @@ h2 {
 	font-weight: bold;
 }*/
 }
+
+/* ------------------------------------------ top nav */
 nav ul {
 	text-align: center;
 	list-style-type: none;
@@ -42,7 +52,8 @@ nav ul {
 	box-shadow: 0px 1px 10px #5e5e5e;
 }
 nav li {
-	font-size: 2em;
+	font-weight: 400;
+	font-size: 1em;
 	text-decoration: none;
 	display: inline;
 	line-height: 40px;
@@ -53,17 +64,22 @@ nav a {
 	color: #555;
 }
 nav a:hover {
-	color: #a50a2d;
+	font-weight: 700;
+	color: #BD1B28;
 }
 nav a:active {
-	color: #fff;
-	background-color: #a50a2d; 
+	color: #E10FFF;
+	/*background-color: #E10FFF;*/
 }
 hr {
 	width: 100%;
 	color: #ff0000;
 	height: 1px;
 }
+
+
+/* ------------------------------------------ footer nav */
+
 .littlenav ul {
 	text-align: right;
 	list-style-type: none;
@@ -94,10 +110,62 @@ hr {
 	color: #444;
 	text-align:center;
 }
+
+.col2{
+	width:50%;
+	float:left;
+/*	background-color:blue;*/
+	padding:5%;
+}
+
+.col2 img{
+	border-radius: 10px; 
+	box-shadow: -7px 7px 7px #5e5e5e;
+	width: auto;
+}
+
+.clearfix:after{
+	display: block;
+	height:0;
+	font-size:0;
+	content:' ';
+	clear:both;
+}
+
+/*FOCUS*/
+.focus {
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.focus:hover {
+  border: 10px solid #000;
+  border-radius: 50%;
+}
+
+/* ------------------------------------------ home page ID's */
+
 #hero {
 	display: block;
 	margin: auto;
 }
+
+#intro{
+	background-color: #fff;
+	height:10%vh;
+}
+#two {
+	background-color: #fff;
+	height: 10%vh;
+}
+#three {
+	background-color: #fff;
+	height: 10%vh
+}
+
 /*.links:active {
 
 }*/
