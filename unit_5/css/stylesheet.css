@@ -56,9 +56,99 @@ header {
 	/*background-color: green*/
 }
 
-/* --------------------------------------------- footer */
-
 /* ------------------------------------------ top nav */
+
+/* ----------------- wrapper */
+
+/*.menu-wrap {
+	width: 100%;
+	box-shadow: 0px 1px 10px #5e5e5e;
+	background: #fff;
+}
+
+.menu {
+	width: 100px;
+	margin: auto;
+}
+
+.menu li {
+	margin: 0px;
+	list-style: none;
+	font-weight: 400;
+	font-size: .5em;
+}
+
+.menu a {
+	transition: all linear 0.25s;
+	color: #777;
+}
+	
+.menu li:hover > a., .menu .current-item > a{
+	text-decoration: none;
+	color: red;
+}
+
+/*.menu .arrow {
+	font-size: 1.5em;
+	line-height: 0%;
+}*/
+
+/* ----------------- top level */
+
+/*.menu > ul > li {
+	float: left;
+	display: inline;
+	position: fixed;
+	font-size: 2em;
+	text-align: center;
+	background: orange;
+}
+
+.menu > ul > li > a {
+	padding: 10px 40px;
+	display: inline;
+}
+
+.menu > ul > li:hover > a, .menu > ul > .current-item > a {
+	background: blue;
+
+}
+
+/* ---------- bottom level */
+
+/*.menu li:hover .sub-menu {
+	z-index: 1;
+	opacity: 1;
+}
+
+.sub-menu {
+	width: 160%;
+	padding: 5px 0px;
+	top: 100%;
+	left: 0px;
+	z-index: -1;
+	opacity: 0;
+	transition: opacity linear 0.15s;
+	box-shadow: 0px 1px 10px #5e5e5e;
+	background: yellow;
+}
+
+.sub-menu li {
+	display: block;
+	font-size: 1em;
+}
+
+.sub-menu li a {
+	padding: 10px 30px;
+	display: block;
+}
+
+.sub-menu li a:hover, .sub-menu .current-item a {
+	background: green;
+}
+
+/* ------------------------------------------------ oringinal*/
+
 nav ul {
 	text-align: center;
 	list-style-type: none;
@@ -67,8 +157,8 @@ nav ul {
 	box-shadow: 0px 1px 10px #5e5e5e;
 	position: fixed;
 	width: 100%;
-	word-spacing: 50px;
-	/*padding: 10px;*/
+	/*word-spacing: 50px;*/
+	padding: 10px;
 	line-height: 80px;
 }
 nav li {
@@ -76,7 +166,7 @@ nav li {
 	font-size: 1em;
 	text-decoration: none;
 	display: inline;
-	word-spacing: 100px;
+	/*word-spacing: 100px;*/
 	/*line-height: 100px;*/
 	/*height: 40px;*/
 	/*margin: auto;*/
@@ -99,9 +189,15 @@ nav a:active {
 	margin: 10px 10px;
 }
 
-/* ------------------------------------------ footer nav */
+/* --------------------------------------------- footer */
 
-.littlenav ul {
+.copyright {
+	font-size: 10px;
+	color: #444;
+	text-align:center;
+}
+
+/*.littlenav ul {
 	text-align: right;
 	list-style-type: none;
 	padding: 0;
@@ -125,12 +221,7 @@ nav a:active {
 .littlenav a:active {
 	color: #fff;
 	background-color: #a50a2d;
-}
-.copyright {
-	font-size: 10px;
-	color: #444;
-	text-align:center;
-}
+}*/
 
 /* ---------------------------------------- div styles */
 
@@ -310,4 +401,13 @@ nav a:active {
 }*/
 
 /*NAVIGATION*/
+
+/* -------------------------------------------- save for later use */
+
+/*<select>
+						  <option value="volvo">Volvo</option>
+						  <option value="saab">Saab</option>
+						  <option value="mercedes">Mercedes</option>
+						  <option value="audi">Audi</option>
+						</select>*/
 
