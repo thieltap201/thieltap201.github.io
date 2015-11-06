@@ -1,0 +1,420 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*TYPOGRAPHY*/
+body {
+	background: #fff;
+	/*font-family: 'Open Sans', sans-serif;*/
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	/*font-family: Verdana, Helvetica, Arial, Sans-Serif;*/
+}
+section#splash {
+	background:url(../photos/Blue_Orange_Front1-1600x600.jpg);
+	background-size: cover;
+	background-repeat:no-repeat;
+	height:50vh;
+}
+h1 {
+	/*font-family: 'Audiowide';*/
+	font-family: 'Fascinate', cursive;
+	font-size: 2em;
+	font-weight: bold;
+	color: #4A070B;
+}
+h2 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.5em;
+	color: #BD1B28;
+}
+hr.style {
+	background-color: #fff;
+	border-top: 2px dotted rgba(0, 0, 0, .1);
+}
+/*.links {
+	font-size: 1.2em;
+	color: #555;
+	text-decoration: none;
+}
+.links:hover {
+	font: 20px;
+	color: #ff0000;
+	text-decoration: underline;
+	font-weight: bold;
+}*/
+}
+
+/* --------------------------------------------- header */
+
+header {
+	margin: 0 0;
+	padding: 1em 1em;
+	/*background-color: green*/
+}
+
+/* ------------------------------------------ top nav */
+
+/* ----------------- wrapper */
+
+/*.menu-wrap {
+	width: 100%;
+	box-shadow: 0px 1px 10px #5e5e5e;
+	background: #fff;
+}
+
+.menu {
+	width: 100px;
+	margin: auto;
+}
+
+.menu li {
+	margin: 0px;
+	list-style: none;
+	font-weight: 400;
+	font-size: .5em;
+}
+
+.menu a {
+	transition: all linear 0.25s;
+	color: #777;
+}
+	
+.menu li:hover > a., .menu .current-item > a{
+	text-decoration: none;
+	color: red;
+}
+
+/*.menu .arrow {
+	font-size: 1.5em;
+	line-height: 0%;
+}*/
+
+/* ----------------- top level */
+
+/*.menu > ul > li {
+	float: left;
+	display: inline;
+	position: fixed;
+	font-size: 2em;
+	text-align: center;
+	background: orange;
+}
+
+.menu > ul > li > a {
+	padding: 10px 40px;
+	display: inline;
+}
+
+.menu > ul > li:hover > a, .menu > ul > .current-item > a {
+	background: blue;
+
+}
+
+/* ---------- bottom level */
+
+/*.menu li:hover .sub-menu {
+	z-index: 1;
+	opacity: 1;
+}
+
+.sub-menu {
+	width: 160%;
+	padding: 5px 0px;
+	top: 100%;
+	left: 0px;
+	z-index: -1;
+	opacity: 0;
+	transition: opacity linear 0.15s;
+	box-shadow: 0px 1px 10px #5e5e5e;
+	background: yellow;
+}
+
+.sub-menu li {
+	display: block;
+	font-size: 1em;
+}
+
+.sub-menu li a {
+	padding: 10px 30px;
+	display: block;
+}
+
+.sub-menu li a:hover, .sub-menu .current-item a {
+	background: green;
+}
+
+/* ------------------------------------------------ oringinal*/
+
+nav ul {
+	text-align: center;
+	list-style-type: none;
+	background-color: #fff;
+	overflow: auto;
+	box-shadow: 0px 1px 10px #5e5e5e;
+	position: fixed;
+	width: 100%;
+	/*word-spacing: 50px;*/
+	padding: 10px;
+	line-height: 80px;
+}
+nav li {
+	font-weight: 400;
+	font-size: 1em;
+	text-decoration: none;
+	display: inline;
+	/*word-spacing: 100px;*/
+	/*line-height: 100px;*/
+	/*height: 40px;*/
+	/*margin: auto;*/
+}
+nav a {
+	text-decoration: none;
+	color: #555;
+}
+nav a:hover {
+	font-weight: 700;
+	color: #BD1B28;
+}
+nav a:active {
+	color: #E10FFF;
+	/*background-color: #E10FFF;*/
+}
+#logo {
+	display: inline-block;
+	float: left;
+	margin: 10px 10px;
+}
+
+/* --------------------------------------------- footer */
+
+.copyright {
+	font-size: 10px;
+	color: #444;
+	text-align:center;
+}
+
+/*.littlenav ul {
+	text-align: right;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	background-color: #fff;
+	overflow: auto;
+}
+.littlenav li {
+	font-size: 14px;
+	text-decoration: none;
+	display: inline;
+	line-height: 15px;
+}
+.littlenav a {
+	text-decoration: none;
+	color: #555;
+}
+.littlenav a:hover {
+	color: #a50a2d;
+}
+.littlenav a:active {
+	color: #fff;
+	background-color: #a50a2d;
+}*/
+
+/* ---------------------------------------- div styles */
+
+
+.clearfix:after{
+	display: block;
+	height:0;
+	font-size:0;
+	content:' ';
+	clear:both;
+}
+
+#featured {
+	width: 95%;
+	margin: 5% auto;
+	padding: 5%;
+	/*border: .5em double blue;*/
+	border-radius: 1em;
+	/*vertical-align: auto;*/
+	/*background-color: red;*/
+}
+
+.portfolio {
+	width: 95%;
+	margin: 5% auto;
+	padding: 5%;
+	/*background: red;*/
+}
+
+#gallery {
+	width: 95%;
+	margin: 5% auto;
+	padding: 5%;
+	/*border: .5em solid green;*/
+	border-radius: 1em;
+	/*background-color: purple;*/
+}
+
+.col {
+	width: 31.33%;
+	float: left;
+	/*background-color: yellow;*/
+	margin: 1%;
+	padding: 1%;
+	text-align: left;
+}
+
+.col img{
+	max-width: 90%;
+	display: block;
+	height: auto;
+	margin: 20px auto;
+	padding: auto;
+	/*float: left;*/
+	/*overflow: scroll;*/
+	border-radius: 1em;
+	/*box-shadow: -7px 7px 7px rgba(0, 0, 0, .5);*/
+	width: auto;
+	/*vertical-align: auto*/
+}
+
+.col2 {
+	width: 23%;
+	float: left;
+	/*background-color: orange;*/
+	margin: 1%;
+	padding: 1%;
+	text-align: center;
+}
+
+.col2 img{
+	max-width: 90%;
+	display: block;
+	margin: 20px auto;
+	padding: auto;
+	border-radius: 10px;
+	border:solid black 3px; 
+	/*box-shadow: -7px 7px 7px #5e5e5e;*/
+	/*width: auto*/
+}
+
+#tert {
+	width: auto;
+	text-align: center;
+	float: left;
+	margin: 10px auto;*/
+}
+
+#tert img{
+	display: block;
+	float: left;
+}
+/*.col2{
+	width:50%;
+	float:left;
+	background-color:blue;
+	padding:5%;
+}
+
+.col2 img{
+	border-radius: 10px; 
+	box-shadow: -7px 7px 7px #5e5e5e;
+	width: auto;
+}*/
+/* ----------------------------------------- FOCUS*/
+.focus {
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.focus:hover {
+  border: 10px solid #000;
+  border-radius: 50%;
+}
+
+/* ------------------------------------------ home page ID's */
+
+#hero {
+	display: block;
+	margin: auto;
+}
+
+#intro{
+	background-color: #fff;
+	height:10%vh;
+}
+#two {
+	background-color: #fff;
+	height: 10%vh;
+}
+#three {
+	background-color: #fff;
+	height: 10%vh
+}
+
+/* ------------------------------------------ media query */
+
+@media screen and (max-width: 1000px) {
+    #featured {
+    	float: none;
+        width: 100%;
+        /*background-color: blue;*/
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #gallery {
+    	float: none;
+        width: 100%;
+        /*background-color: blue;*/
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .col {
+    	float: none;
+        width: 100%;
+        /*background-color: blue;*/
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .col2 {
+    	float: none;
+        width: 100%;
+        /*background-color: blue;*/
+    }
+}
+
+
+/*@media screen and (max-width: 800px){
+	#featured {
+		float: none;
+		background-color: blue;
+	}
+}*/
+
+
+/*.links:active {
+
+}*/
+
+/*NAVIGATION*/
+
+/* -------------------------------------------- save for later use */
+
+/*<select>
+						  <option value="volvo">Volvo</option>
+						  <option value="saab">Saab</option>
+						  <option value="mercedes">Mercedes</option>
+						  <option value="audi">Audi</option>
+						</select>*/
+
